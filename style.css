@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap');
+
+body {
+  background-color: #E0E0E0;
+  font-size: 14px;
+  text-align: center;
+}
+
+h1{
+  font-family: Montserrat;
+  font-size: 40px;
+}
+
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  font-family: Roboto;
+  margin: 25px auto;
+  padding: 25px;
+  /* width: 1000px; */
+  background-color: #AAAE8E;
+  color: #607B7D;
+  border-radius: 4px;
+  box-shadow: 2px 3px 10px #607B7D;
+}
+
+#profile-pic {
+  width: 150px;
+  border-radius: 5px;
+  border: 1px solid #3A606E;
+}
+
+.lnk-lightgreen {
+  text-decoration: none;
+  color: #607B7D;
+}
+
+.lnk-lightgreen:hover {
+  opacity: 70;
+  color: #E0E0E0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#social-links {
+  font-size: 25px;
+}
+
+
+.list-no-bullet {
+  list-style: none;
+}
+
+.btn-green {
+  background-color: #607B7D;
+  color:#EED7C5;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin: 0 auto;
+  box-shadow: 2px 3px 10px #607B7D;
+}
+
+.btn-green:hover {
+  opacity: 70;
+  color:white;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
